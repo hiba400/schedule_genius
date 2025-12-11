@@ -1,0 +1,224 @@
+{
+  "app": {
+    "name": "ENSA Scheduler",
+    "title": "Gestion des Emplois du Temps"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "modules": "Modules",
+    "professors": "Professeurs",
+    "programs": "Filières",
+    "rooms": "Salles",
+    "constraints": "Contraintes",
+    "generate": "Générer",
+    "timetables": "Emplois du temps",
+    "logout": "Déconnexion",
+    "settings": "Paramètres"
+  },
+  "auth": {
+    "login": "Connexion",
+    "signup": "Inscription",
+    "email": "Email",
+    "password": "Mot de passe",
+    "fullName": "Nom complet",
+    "loginButton": "Se connecter",
+    "signupButton": "S'inscrire",
+    "noAccount": "Pas de compte ?",
+    "hasAccount": "Déjà un compte ?",
+    "emailRequired": "Email requis",
+    "passwordRequired": "Mot de passe requis",
+    "invalidEmail": "Email invalide",
+    "invalidDomain": "Seuls les emails @uae.ac.ma et @etu.uae.ac.ma sont autorisés",
+    "loginError": "Erreur de connexion",
+    "signupError": "Erreur d'inscription",
+    "welcome": "Bienvenue sur ENSA Scheduler"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue",
+    "stats": {
+      "modules": "Modules",
+      "professors": "Professeurs",
+      "rooms": "Salles",
+      "groups": "Groupes"
+    },
+    "recentGenerations": "Générations récentes",
+    "noGenerations": "Aucune génération récente",
+    "quickActions": "Actions rapides"
+  },
+  "modules": {
+    "title": "Gestion des Modules",
+    "add": "Ajouter un module",
+    "edit": "Modifier le module",
+    "delete": "Supprimer",
+    "name": "Nom du module",
+    "code": "Code",
+    "type": "Type",
+    "nature": "Nature",
+    "hoursCM": "Heures CM",
+    "hoursTD": "Heures TD",
+    "hoursTP": "Heures TP",
+    "program": "Filière",
+    "noModules": "Aucun module enregistré",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce module ?",
+    "types": {
+      "CM": "Cours Magistral",
+      "TD": "Travaux Dirigés",
+      "TP": "Travaux Pratiques"
+    },
+    "natures": {
+      "informatique": "Informatique",
+      "electronique": "Électronique",
+      "instrumentation": "Instrumentation",
+      "mathematiques": "Mathématiques",
+      "physique": "Physique",
+      "langues": "Langues",
+      "gestion": "Gestion",
+      "autre": "Autre"
+    }
+  },
+  "professors": {
+    "title": "Gestion des Professeurs",
+    "add": "Ajouter un professeur",
+    "edit": "Modifier le professeur",
+    "delete": "Supprimer",
+    "name": "Nom",
+    "email": "Email",
+    "specialties": "Spécialités",
+    "maxHours": "Heures max/semaine",
+    "availability": "Disponibilités",
+    "noProfessors": "Aucun professeur enregistré",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce professeur ?"
+  },
+  "programs": {
+    "title": "Gestion des Filières",
+    "add": "Ajouter une filière",
+    "edit": "Modifier la filière",
+    "delete": "Supprimer",
+    "name": "Nom de la filière",
+    "code": "Code",
+    "level": "Niveau",
+    "groups": "Groupes",
+    "addGroup": "Ajouter un groupe",
+    "groupName": "Nom du groupe",
+    "groupSize": "Effectif",
+    "noPrograms": "Aucune filière enregistrée",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette filière ?"
+  },
+  "rooms": {
+    "title": "Gestion des Salles",
+    "add": "Ajouter une salle",
+    "edit": "Modifier la salle",
+    "delete": "Supprimer",
+    "name": "Nom de la salle",
+    "type": "Type",
+    "capacity": "Capacité",
+    "equipment": "Équipements",
+    "noRooms": "Aucune salle enregistrée",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette salle ?",
+    "types": {
+      "amphi": "Amphithéâtre",
+      "td": "Salle TD",
+      "tp": "Salle TP",
+      "specialisee": "Salle Spécialisée"
+    }
+  },
+  "constraints": {
+    "title": "Gestion des Contraintes",
+    "add": "Ajouter une contrainte",
+    "edit": "Modifier la contrainte",
+    "delete": "Supprimer",
+    "type": "Type",
+    "priority": "Priorité",
+    "active": "Active",
+    "params": "Paramètres",
+    "noConstraints": "Aucune contrainte enregistrée",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette contrainte ?",
+    "types": {
+      "module_room": "Module → Salle",
+      "time_incompatibility": "Incompatibilité horaire",
+      "capacity_rule": "Règle de capacité",
+      "professor_preference": "Préférence professeur"
+    }
+  },
+  "generate": {
+    "title": "Génération d'Emploi du Temps",
+    "semester": "Semestre",
+    "populationSize": "Taille population",
+    "maxGenerations": "Générations max",
+    "mutationRate": "Taux de mutation",
+    "crossoverRate": "Taux de croisement",
+    "generateButton": "Générer",
+    "generating": "Génération en cours...",
+    "progress": "Progression",
+    "currentGeneration": "Génération actuelle",
+    "bestFitness": "Meilleur score",
+    "history": "Historique des générations",
+    "noHistory": "Aucun historique",
+    "viewResult": "Voir le résultat",
+    "status": {
+      "pending": "En attente",
+      "running": "En cours",
+      "completed": "Terminée",
+      "failed": "Échouée"
+    }
+  },
+  "timetables": {
+    "title": "Emplois du Temps",
+    "viewByGroup": "Par groupe",
+    "viewByProfessor": "Par professeur",
+    "viewByRoom": "Par salle",
+    "selectGroup": "Sélectionner un groupe",
+    "selectProfessor": "Sélectionner un professeur",
+    "selectRoom": "Sélectionner une salle",
+    "noEntries": "Aucun cours programmé",
+    "export": "Exporter",
+    "exportPDF": "Exporter PDF",
+    "exportExcel": "Exporter Excel",
+    "conflict": "Conflit détecté",
+    "dragToMove": "Glisser pour déplacer"
+  },
+  "availability": {
+    "title": "Grille de disponibilités",
+    "available": "Disponible",
+    "unavailable": "Indisponible",
+    "clickToToggle": "Cliquer pour modifier"
+  },
+  "time": {
+    "days": {
+      "0": "Lundi",
+      "1": "Mardi",
+      "2": "Mercredi",
+      "3": "Jeudi",
+      "4": "Vendredi"
+    },
+    "slots": {
+      "0": "9h00 - 10h30",
+      "1": "11h00 - 12h30",
+      "2": "13h30 - 15h00",
+      "3": "15h30 - 17h00"
+    }
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "search": "Rechercher",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "actions": "Actions",
+    "noData": "Aucune donnée",
+    "selectOption": "Sélectionner une option"
+  },
+  "student": {
+    "welcome": "Bienvenue, Étudiant",
+    "selectProgram": "Sélectionner votre filière",
+    "selectGroup": "Sélectionner votre groupe",
+    "viewTimetable": "Voir l'emploi du temps"
+  }
+}

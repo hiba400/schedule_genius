@@ -1,0 +1,224 @@
+{
+  "app": {
+    "name": "ENSA Scheduler",
+    "title": "إدارة جداول الحصص"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "modules": "الوحدات",
+    "professors": "الأساتذة",
+    "programs": "الشعب",
+    "rooms": "القاعات",
+    "constraints": "القيود",
+    "generate": "توليد",
+    "timetables": "جداول الحصص",
+    "logout": "تسجيل الخروج",
+    "settings": "الإعدادات"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "fullName": "الاسم الكامل",
+    "loginButton": "دخول",
+    "signupButton": "تسجيل",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "invalidEmail": "بريد إلكتروني غير صالح",
+    "invalidDomain": "يُسمح فقط بعناوين البريد @uae.ac.ma و @etu.uae.ac.ma",
+    "loginError": "خطأ في تسجيل الدخول",
+    "signupError": "خطأ في التسجيل",
+    "welcome": "مرحباً بك في ENSA Scheduler"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً",
+    "stats": {
+      "modules": "الوحدات",
+      "professors": "الأساتذة",
+      "rooms": "القاعات",
+      "groups": "المجموعات"
+    },
+    "recentGenerations": "التوليدات الأخيرة",
+    "noGenerations": "لا توجد توليدات حديثة",
+    "quickActions": "إجراءات سريعة"
+  },
+  "modules": {
+    "title": "إدارة الوحدات",
+    "add": "إضافة وحدة",
+    "edit": "تعديل الوحدة",
+    "delete": "حذف",
+    "name": "اسم الوحدة",
+    "code": "الرمز",
+    "type": "النوع",
+    "nature": "الطبيعة",
+    "hoursCM": "ساعات المحاضرات",
+    "hoursTD": "ساعات التمارين",
+    "hoursTP": "ساعات التطبيقية",
+    "program": "الشعبة",
+    "noModules": "لا توجد وحدات مسجلة",
+    "confirmDelete": "هل أنت متأكد من حذف هذه الوحدة؟",
+    "types": {
+      "CM": "محاضرة",
+      "TD": "تمارين موجهة",
+      "TP": "أعمال تطبيقية"
+    },
+    "natures": {
+      "informatique": "المعلوميات",
+      "electronique": "الإلكترونيك",
+      "instrumentation": "الأجهزة",
+      "mathematiques": "الرياضيات",
+      "physique": "الفيزياء",
+      "langues": "اللغات",
+      "gestion": "التدبير",
+      "autre": "أخرى"
+    }
+  },
+  "professors": {
+    "title": "إدارة الأساتذة",
+    "add": "إضافة أستاذ",
+    "edit": "تعديل الأستاذ",
+    "delete": "حذف",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "specialties": "التخصصات",
+    "maxHours": "الحد الأقصى للساعات/أسبوع",
+    "availability": "التوفر",
+    "noProfessors": "لا يوجد أساتذة مسجلون",
+    "confirmDelete": "هل أنت متأكد من حذف هذا الأستاذ؟"
+  },
+  "programs": {
+    "title": "إدارة الشعب",
+    "add": "إضافة شعبة",
+    "edit": "تعديل الشعبة",
+    "delete": "حذف",
+    "name": "اسم الشعبة",
+    "code": "الرمز",
+    "level": "المستوى",
+    "groups": "المجموعات",
+    "addGroup": "إضافة مجموعة",
+    "groupName": "اسم المجموعة",
+    "groupSize": "عدد الطلاب",
+    "noPrograms": "لا توجد شعب مسجلة",
+    "confirmDelete": "هل أنت متأكد من حذف هذه الشعبة؟"
+  },
+  "rooms": {
+    "title": "إدارة القاعات",
+    "add": "إضافة قاعة",
+    "edit": "تعديل القاعة",
+    "delete": "حذف",
+    "name": "اسم القاعة",
+    "type": "النوع",
+    "capacity": "السعة",
+    "equipment": "التجهيزات",
+    "noRooms": "لا توجد قاعات مسجلة",
+    "confirmDelete": "هل أنت متأكد من حذف هذه القاعة؟",
+    "types": {
+      "amphi": "مدرج",
+      "td": "قاعة تمارين",
+      "tp": "قاعة تطبيقية",
+      "specialisee": "قاعة متخصصة"
+    }
+  },
+  "constraints": {
+    "title": "إدارة القيود",
+    "add": "إضافة قيد",
+    "edit": "تعديل القيد",
+    "delete": "حذف",
+    "type": "النوع",
+    "priority": "الأولوية",
+    "active": "نشط",
+    "params": "المعلمات",
+    "noConstraints": "لا توجد قيود مسجلة",
+    "confirmDelete": "هل أنت متأكد من حذف هذا القيد؟",
+    "types": {
+      "module_room": "وحدة ← قاعة",
+      "time_incompatibility": "عدم توافق زمني",
+      "capacity_rule": "قاعدة السعة",
+      "professor_preference": "تفضيل الأستاذ"
+    }
+  },
+  "generate": {
+    "title": "توليد جدول الحصص",
+    "semester": "الفصل الدراسي",
+    "populationSize": "حجم السكان",
+    "maxGenerations": "الأجيال القصوى",
+    "mutationRate": "معدل الطفرة",
+    "crossoverRate": "معدل التقاطع",
+    "generateButton": "توليد",
+    "generating": "جاري التوليد...",
+    "progress": "التقدم",
+    "currentGeneration": "الجيل الحالي",
+    "bestFitness": "أفضل نتيجة",
+    "history": "سجل التوليدات",
+    "noHistory": "لا يوجد سجل",
+    "viewResult": "عرض النتيجة",
+    "status": {
+      "pending": "قيد الانتظار",
+      "running": "قيد التنفيذ",
+      "completed": "مكتمل",
+      "failed": "فشل"
+    }
+  },
+  "timetables": {
+    "title": "جداول الحصص",
+    "viewByGroup": "حسب المجموعة",
+    "viewByProfessor": "حسب الأستاذ",
+    "viewByRoom": "حسب القاعة",
+    "selectGroup": "اختر مجموعة",
+    "selectProfessor": "اختر أستاذ",
+    "selectRoom": "اختر قاعة",
+    "noEntries": "لا توجد حصص مبرمجة",
+    "export": "تصدير",
+    "exportPDF": "تصدير PDF",
+    "exportExcel": "تصدير Excel",
+    "conflict": "تعارض مكتشف",
+    "dragToMove": "اسحب للنقل"
+  },
+  "availability": {
+    "title": "شبكة التوفر",
+    "available": "متاح",
+    "unavailable": "غير متاح",
+    "clickToToggle": "انقر للتبديل"
+  },
+  "time": {
+    "days": {
+      "0": "الإثنين",
+      "1": "الثلاثاء",
+      "2": "الأربعاء",
+      "3": "الخميس",
+      "4": "الجمعة"
+    },
+    "slots": {
+      "0": "9:00 - 10:30",
+      "1": "11:00 - 12:30",
+      "2": "13:30 - 15:00",
+      "3": "15:30 - 17:00"
+    }
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "actions": "إجراءات",
+    "noData": "لا توجد بيانات",
+    "selectOption": "اختر خياراً"
+  },
+  "student": {
+    "welcome": "مرحباً، طالب",
+    "selectProgram": "اختر شعبتك",
+    "selectGroup": "اختر مجموعتك",
+    "viewTimetable": "عرض جدول الحصص"
+  }
+}
