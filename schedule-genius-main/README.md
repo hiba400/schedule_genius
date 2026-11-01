@@ -1,32 +1,32 @@
 # Schedule Genius
 
-Application de génération automatique d'emplois du temps pour les établissements d'enseignement supérieur.
+Automatic timetable generation application for higher education institutions.
 
-## 📁 Structure du Projet
+## 📁 Project Structure
 
 ```
 schedule-genius/
-├── frontend/          # Application React/TypeScript (Vite)
-│   ├── src/          # Code source frontend
-│   ├── public/       # Fichiers statiques
-│   └── supabase/     # Configuration Supabase (Edge Functions, Migrations)
+├── frontend/          # React/TypeScript Application (Vite)
+│   ├── src/          # Frontend source code
+│   ├── public/       # Static files
+│   └── supabase/     # Supabase Configuration (Edge Functions, Migrations)
 │
-└── backend/          # API REST Express.js/TypeScript
-    ├── src/          # Code source backend
+└── backend/          # Express.js/TypeScript REST API
+    ├── src/          # Backend source code
     │   ├── config/   # Configuration
     │   ├── middleware/ # Middleware (auth, errors)
-    │   ├── routes/   # Routes API
-    │   ├── services/ # Logique métier
-    │   └── types/    # Types TypeScript
-    └── dist/         # Code compilé (généré)
+    │   ├── routes/   # API routes
+    │   ├── services/ # Business logic
+    │   └── types/    # TypeScript types
+    └── dist/         # Compiled code (generated)
 ```
 
-## 🚀 Démarrage Rapide
+## 🚀 Quick Start
 
-### Prérequis
+### Prerequisites
 
-- Node.js 18+ et npm
-- Compte Supabase avec projet configuré
+- Node.js 18+ and npm
+- Supabase account with configured project
 
 ### Frontend
 
@@ -36,7 +36,7 @@ npm install
 npm run dev
 ```
 
-Le frontend sera accessible sur `http://localhost:8080`
+Frontend will be accessible at `http://localhost:8080`
 
 ### Backend
 
@@ -44,16 +44,16 @@ Le frontend sera accessible sur `http://localhost:8080`
 cd backend
 npm install
 cp env.example .env
-# Éditer .env avec vos clés Supabase
+# Edit .env with your Supabase keys
 npm run dev
 ```
 
-Le backend sera accessible sur `http://localhost:3001`
+Backend will be accessible at `http://localhost:3001`
 
 ## 📚 Documentation
 
-- [Documentation Frontend](./frontend/README.md) - Guide du frontend
-- [Documentation Backend](./backend/README.md) - Guide du backend API
+- [Frontend Documentation](./frontend/README.md) - Frontend guide
+- [Backend Documentation](./backend/README.md) - Backend API guide
 
 ## 🛠️ Technologies
 
@@ -72,31 +72,31 @@ Le backend sera accessible sur `http://localhost:3001`
 - Supabase (Database)
 - Express Validator
 
-## 📝 Scripts Disponibles
+## 📝 Available Scripts
 
 ### Frontend
-- `npm run dev` - Démarrer le serveur de développement
-- `npm run build` - Build de production
-- `npm run lint` - Linter le code
+- `npm run dev` - Start development server
+- `npm run build` - Production build
+- `npm run lint` - Lint code
 
 ### Backend
-- `npm run dev` - Démarrer le serveur avec hot-reload
-- `npm run build` - Compiler TypeScript
-- `npm start` - Démarrer en production
+- `npm run dev` - Start server with hot-reload
+- `npm run build` - Compile TypeScript
+- `npm start` - Start in production
 
 ## 🔐 Configuration
 
-### Variables d'environnement Frontend
+### Frontend Environment Variables
 
-Créer un fichier `.env` dans `frontend/` :
+Create a `.env` file in `frontend/`:
 ```
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
 ```
 
-### Variables d'environnement Backend
+### Backend Environment Variables
 
-Créer un fichier `.env` dans `backend/` :
+Create a `.env` file in `backend/`:
 ```
 SUPABASE_URL=your_supabase_url
 SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
@@ -104,27 +104,27 @@ PORT=3001
 CORS_ORIGIN=http://localhost:8080
 ```
 
-## 📡 API Backend
+## 📡 Backend API
 
-Le backend expose une API REST sur `http://localhost:3001/api` :
+The backend exposes a REST API at `http://localhost:3001/api`:
 
-- `/api/modules` - Gestion des modules
-- `/api/professors` - Gestion des professeurs
-- `/api/rooms` - Gestion des salles
-- `/api/programs` - Gestion des programmes
-- `/api/groups` - Gestion des groupes
+- `/api/modules` - Module management
+- `/api/professors` - Professor management
+- `/api/rooms` - Room management
+- `/api/programs` - Program management
+- `/api/groups` - Group management
 
-Toutes les routes nécessitent une authentification via token Bearer.
+All routes require authentication via Bearer token.
 
-## 🎯 Fonctionnalités
+## 🎯 Features
 
-- ✅ Gestion des modules, professeurs, salles, programmes et groupes
-- ✅ Génération automatique d'emplois du temps avec algorithme génétique
-- ✅ Gestion des contraintes et disponibilités
-- ✅ Interface multilingue (FR, EN, AR)
-- ✅ Authentification et autorisation par rôles
-- ✅ API REST complète avec validation
+- ✅ Management of modules, professors, rooms, programs, and groups
+- ✅ Automatic timetable generation with genetic algorithm
+- ✅ Constraint and availability management
+- ✅ Multilingual interface (FR, EN, AR)
+- ✅ Authentication and role-based authorization
+- ✅ Complete REST API with validation
 
-## 📄 Licence
+## 📄 License
 
 ISC
